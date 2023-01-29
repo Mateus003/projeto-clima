@@ -77,13 +77,13 @@ h1 {
 }
 .tempTitulo,
 .ventoTitulo {
-    color: #777;
+    color: #ffff00;
     font-size: 16px;
     margin-bottom: 5px;
 }
 .tempInfo,
 .ventoInfo {
-    color: #ffff00;
+    color: #fefefe;
     font-size: 30px;
     font-weight: bold;
 }
