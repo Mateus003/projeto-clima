@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-    color: #FFF;
+    color: #ffff00;
     margin: 20px 0;
 }
 
@@ -56,7 +56,7 @@ h1 {
 
 .titulo {
     width: 100%;
-    color: #FFF;
+    color: #ffff00;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
@@ -83,7 +83,7 @@ h1 {
 }
 .tempInfo,
 .ventoInfo {
-    color: #FFF;
+    color: #ffff00;
     font-size: 30px;
     font-weight: bold;
 }
@@ -113,12 +113,42 @@ h1 {
 }
 
 .aviso {
-    color: #FFF;
+    color: rgb(0, 0, 0);
     padding-top: 20px;
 }
 
 footer {
     margin-top: 20px;
-    color: #FFF;
+    color: #ffff00;
     font-size: 13px;
+}
+.broken-clouds-day{
+    background-image: url(../image/broken-clouds-day.jpg);
+}
+.clear-sky-day{
+    background-image: url(../image/broken-clouds-day.jpg);
+}
+.clear-sky-night{
+    background-image: url(../image/clear-sky-night.jpg);
+}
+.few-clouds-day{
+    background-image: url(../image/few-clouds-day.jpg);
+}
+.few-clouds-night{
+    background-image: url(../image/few-clouds-night.jpg);
+}
+.mist{
+    background-color: url(../image/mist.jpg);
+}
+.scaterred-clouds-day{
+    background-image: url(../image/scattered-clouds-day.jpg);
+}
+.shower-rain-day{
+    background-image: url(../image/shower-rain-day.jpg);
+}
+.snow-day{
+    background-color: url(../image/snow-day.jpg);
+}
+.thunderstorm{
+    background-color: url(../image/thunderstorm.jpg);
 }
