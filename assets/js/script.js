@@ -104,15 +104,15 @@ function showInfo(json){
         clearAndAddBackgroundImage("shower-rain-day");
 
     }
-    else if(icons ==='http://openweathermap.org/img/wn/11d@2x.png' || icons =='http://openweathermap.org/img/wn/11n@2x.png'){
+    else if(icons ==='http://openweathermap.org/img/wn/11d@2x.png' || icons ==='http://openweathermap.org/img/wn/11n@2x.png'){
         clearAndAddBackgroundImage("thunderstorm");
 
     }
-    else if(icons === 'http://openweathermap.org/img/wn/13d@2x.png' || icons =='http://openweathermap.org/img/wn/13n@2x.png'){
+    else if(icons === 'http://openweathermap.org/img/wn/13d@2x.png' || icons ==='http://openweathermap.org/img/wn/13n@2x.png'){
         clearAndAddBackgroundImage("snow");
 
     }
-    else if(icons === 'http://openweathermap.org/img/wn/50d@2x.png' || icons =='http://openweathermap.org/img/wn/50n@2x.png'){
+    else if(icons === 'http://openweathermap.org/img/wn/50d@2x.png' || icons ==='http://openweathermap.org/img/wn/50n@2x.png'){
         clearAndAddBackgroundImage("mist");
     }
         
