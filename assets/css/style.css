@@ -164,7 +164,7 @@ footer {
 }
 
 .mist{
-    background-color: url(../image/mist.jpg);
+    background-image: url(../image/mist.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -203,12 +203,12 @@ footer {
 }
 
 .snow{
-    background-color: url(../image/snow.jpg);
+    background-image: url(../image/snow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .thunderstorm{
-    background-color: url(../image/thunderstorm.jpg);
+    background-image: url(../image/thunderstorm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
