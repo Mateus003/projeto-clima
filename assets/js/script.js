@@ -82,6 +82,7 @@ function showInfo(json){
     document.querySelector('.ventoPonto').style.transform = `rotate(${json.windAngle-90}deg)`;
 
     let icons = document.querySelector('.temp img').src = `http://openweathermap.org/img/wn/${json.tempIcon}@2x.png`;
+
     if(icons =='http://openweathermap.org/img/wn/01d@2x.png'){
         clearAndAddBackgroundImage("clear-sky-day");
     }
@@ -117,6 +118,13 @@ function showInfo(json){
         clearAndAddBackgroundImage("shower-rain-night");
     }
 
+    else if(icons ==='http://openweathermap.org/img/wn/10d@2x.png'){
+        clearAndAddBackgroundImage("rain-day");
+    }
+    else if(icons === 'http://openweathermap.org/img/wn/10nd@2x.png'){
+        clearAndAddBackgroundImage("rain-night");
+    }
+
     else if(icons ==='http://openweathermap.org/img/wn/11d@2x.png' || icons ==='http://openweathermap.org/img/wn/11n@2x.png'){
         clearAndAddBackgroundImage("thunderstorm");
     }
@@ -125,10 +133,9 @@ function showInfo(json){
         clearAndAddBackgroundImage("snow");
     }
 
-    else if(icons === 'http://openweathermap.org/img/wn/50d@2x.png' || icons ==='http://openweathermap.org/img/wn/50n@2x.png'){
+    else if(icons === 'http://openweathermap.org/img/wn/50d@2x.png'  || icons ==='http://openweathermap.org/img/wn/50n@2x.png'){
         clearAndAddBackgroundImage("mist");
-    }
-        
+    }    
 }
     
     
@@ -157,7 +164,9 @@ function clearAndAddBackgroundImage(image){
         "snow",
         "broken-clouds-night",
         "shower-rain-night",
-        "scattered-clouds-night"
+        "scattered-clouds-night",
+        "rain-day",
+        "rain-night"
         ];
     body.classList.remove(...classesToRemove);
     body.classList.add(image);   

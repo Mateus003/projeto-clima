@@ -129,6 +129,7 @@ footer {
     color: #ffff00;
     font-size: 13px;
 }
+
 .broken-clouds-day{
     background-image: url(../image/broken-clouds-day.jpg);
     background-repeat: no-repeat;
@@ -139,6 +140,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .clear-sky-day{
     background-image: url(../image/clear-sky-day.jpg);
     background-repeat: no-repeat;
@@ -149,6 +151,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .few-clouds-day{
     background-image: url(../image/few-clouds-day.jpg);
     background-repeat: no-repeat;
@@ -159,11 +162,13 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .mist{
     background-color: url(../image/mist.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .scattered-clouds-day{
     background-image: url(../image/scattered-clouds-day.jpg);
     background-repeat: no-repeat;
@@ -171,6 +176,17 @@ footer {
 }
 .scattered-clouds-night{
     background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rain-day{
+    background-image: url(../image/rain-day.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rain-night{
+    background-image: url(../image/rain-night.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -187,7 +203,7 @@ footer {
 }
 
 .snow{
-    background-color: url(../image/snow-day.jpg);
+    background-color: url(../image/snow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
