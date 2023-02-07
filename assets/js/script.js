@@ -21,13 +21,13 @@ document.querySelector('.busca').addEventListener('submit', async(event)=>{
         }else{
             clearInfo();
             showWarning('Esta localização não foi encontrada');
-            clearAndAddBackgroundImage("body-brown");
+            clearAndAddBackgroundImage("body-degrade");
         }
         
     }else{
         clearInfo();
         showWarning('Por favor, digite um nome de uma cidade');
-        clearAndAddBackgroundImage("body-brown");
+        clearAndAddBackgroundImage("body-degrade");
     }
     
 })
